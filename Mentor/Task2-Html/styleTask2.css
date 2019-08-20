@@ -1,0 +1,195 @@
+* {
+            margin: 0px;
+            padding: 0px;
+        }
+        .header {
+            background-color:  rgb(37, 37, 36);
+            height: 10%;
+            display: flex;
+            margin-top: 0%;
+            flex-direction: row;
+        }
+        .footer {
+            background-color: rgb(37, 37, 36);
+            height: 10%;
+            display: flex;
+            margin-bottom: 0%;
+            align-items: center;
+        }
+        .main {
+            display: flex;
+            background-color: #ffffff;
+            height: 80%;
+            flex-direction: row;
+        }
+        .leftflex {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 100%;            
+            margin-left: 1%;
+            width : 70%;
+        }
+        .rightflex {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            height: 100%;
+            width:30%;
+            margin-left:  0px;
+        }
+        
+        .op3 {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            height: 100%;
+            margin-right: 0px;
+        }
+        .op3:hover {
+            background-color: #141414;
+        }
+        .op1 {
+            width:15%;
+            height:85%;
+            margin-left: 0px;            
+        }
+        .op2 {
+            font-size: 20px;
+            font-weight: normal;
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;
+            font-style: normal;
+            color: #ffffff;
+            padding : 14px 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            height:100%;
+        }
+        .op2:hover {
+            background-color: #141414;
+        }
+        .login {
+            font-size: 20px;
+            font-weight: normal;
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;
+            font-style: normal;
+            color: #ffffff;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+
+        .loginlogo {
+            height: 15px;
+            width: 15px;
+            margin-right: 5px;
+            margin-left: 10px;
+        }
+        .col1 {            
+            height:100%;
+            background-color: #f3f3f3;
+            display: flex;
+            flex-direction: column;
+            width: 22%;
+        }
+        .col2 {
+            display: flex;
+            width:56%;
+            height:100%;
+            background-color: #ffffff;            
+            flex-direction: column;
+        }
+        .blocks {            
+            margin-top: 16px;            
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;            
+            border-color: #dbd5d5;
+            background: #eeebeb;            
+            align-self: center;
+            width: 88%;
+            height: 65px;     
+            display: flex;
+            align-items: center;   
+            text-align: center;    
+            justify-content: center;  
+            font-size: 15px;  
+            font-weight: bold;          
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;            
+            color: #504f4f ;                                      
+        }
+        .blocktext {
+            align-self: center;
+            font-size: 15px;  
+            font-weight: bold;          
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;            
+            color: #504f4f ;
+            text-align: center;    
+            display: flex;
+            align-items: center;         
+        }
+        .links {
+            margin-top: 16px;            
+            text-align: center;  
+            text-decoration: none;      
+            font-size: 15px;
+            font-weight: bold;
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;
+            font-style: bold;
+            color: rgb(16, 81, 167);     
+        }
+        .version {
+            font-size: 18px;
+            font-weight: normal;
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;
+            font-style: normal;
+            color: #949090;
+            margin-left: 10%;        
+        }
+        .help {
+            font-size: 20px;
+            font-weight: normal;
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;
+            font-style: normal;
+            color: #ffffff;
+            margin-left: 70%;
+        }
+        hr {
+            display: block;
+            margin-top: 17px;            
+            margin-left: 15px;
+            margin-right: 15px;            
+            background: #eeebeb;
+            color:#eeebeb;
+            height: 2px;        
+            background-color: #eeebeb;
+            border: none;
+        }
+        .welcome {
+            font-size: 35px;
+            font-weight: bold;
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;
+            font-style: bold;
+            color: #161515;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        .test {
+            font-size: 27px;
+            font-weight: bold;
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;
+            font-style: bold;
+            color: #161515;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        .pageText {
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 13px;
+            font-size: 15px;  
+            font-weight: bold;          
+            font-family: "Segoe UI Light", "Segoe", "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;
+            color: #504f4f
+        }                                       
